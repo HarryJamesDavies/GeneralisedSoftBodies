@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{0932dc61-2bef-4cec-8764-85994186ab09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Core\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{b3747e5e-5d54-4c36-a7e5-d9c2f808058b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{c84b3f06-61e0-4bf5-8c80-d007dbca1c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\GameObjectCore">
+      <UniqueIdentifier>{08fe16e7-0e0c-45d0-a0ae-65b7ce2645b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\GameObjectCore\Header">
+      <UniqueIdentifier>{486403fa-5d60-4e5e-8470-96b073b430f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\GameObjectCore\Source">
+      <UniqueIdentifier>{baf0d9f5-5166-48c6-9a66-7688c1e45f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\PawnGameObject">
+      <UniqueIdentifier>{d63b2738-79aa-48cb-ba98-4e9e81281e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\PawnGameObject\Source">
+      <UniqueIdentifier>{4e486cae-4416-4c9d-b5f0-72971e813b2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\PawnGameObject\Header">
+      <UniqueIdentifier>{c985bf62-a885-4167-bc48-509f456c1fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\VertexGameObject">
+      <UniqueIdentifier>{d5b924ac-a6fa-47ab-98a2-fcc6bf78c486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\VertexGameObject\Header">
+      <UniqueIdentifier>{a25e0101-84a3-45a1-ad55-ca09fe743a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\VertexGameObject\Source">
+      <UniqueIdentifier>{84f894e5-4c32-4214-b305-d4ea91f94554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\CameraGameObject">
+      <UniqueIdentifier>{a03d4269-f7e7-417a-b3de-ac08c5e760be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\CameraGameObject\Header">
+      <UniqueIdentifier>{67e580be-045a-4eab-8f4e-686776782439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\CameraGameObject\Source">
+      <UniqueIdentifier>{05376831-9a85-4be6-a001-bd6ddbeb771b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\MeshGameObject">
+      <UniqueIdentifier>{270983e9-ee47-4ff8-b63e-78fbee1f509d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\MeshGameObject\Header">
+      <UniqueIdentifier>{1f60752a-4ef4-4478-b564-ec4c217f6ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\MeshGameObject\Source">
+      <UniqueIdentifier>{fee7b071-82bd-4a29-ab53-bd9817267303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{ffcb531f-e165-4025-9f0e-49383cbbb570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{01e43119-652d-4a4b-a353-157ea06901b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\SoftBodyTest">
+      <UniqueIdentifier>{9fc48492-15c5-4f79-bb10-d92a33ddf012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\SoftBodyTest\Header">
+      <UniqueIdentifier>{1dbd725d-132e-4f15-a595-9819d51bac8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\SoftBodyTest\Source">
+      <UniqueIdentifier>{ef0e45fb-083f-493b-9103-42ba9e11dafa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Models">
+      <UniqueIdentifier>{fe234a81-916d-4332-8b7f-887d8f7be2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\MSOGameObject">
+      <UniqueIdentifier>{91aa1ffb-c329-4dfa-b05f-3cb9b791a393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\MSOGameObject\Header">
+      <UniqueIdentifier>{4753a201-f928-41bb-b608-27c36ae4f48d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\MSOGameObject\Source">
+      <UniqueIdentifier>{abc3c783-83f1-4999-ad6f-e0b89d600137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths">
+      <UniqueIdentifier>{c4a3c935-c1bd-4d98-a712-94f69ddfd058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths\Header">
+      <UniqueIdentifier>{95937211-eccd-4969-9b56-c69d4d9aab79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths\Source">
+      <UniqueIdentifier>{4eb83b88-5736-4f80-a520-18058d1706af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{19788a6d-026f-499a-8e11-53160d9f59e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Headers">
+      <UniqueIdentifier>{1e18e0d0-4c28-4045-b2d8-8aa06b30ba84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Source">
+      <UniqueIdentifier>{ca232651-6cc7-4177-9543-ca6aa1ba04e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Colliders">
+      <UniqueIdentifier>{a4d5e8d2-806c-4dd8-9936-f0feac4ef6a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Colliders\Header">
+      <UniqueIdentifier>{b4c60d13-de47-4a32-bed4-d7e4a66f5f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Colliders\Source">
+      <UniqueIdentifier>{ecaf783d-4cce-40c8-afc5-67fb1b504557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Mass/Spring">
+      <UniqueIdentifier>{2587e3d2-6dfa-416c-a3ee-7bf4512165ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Mass/Spring\Header">
+      <UniqueIdentifier>{bf2e3d4e-2d4e-4f5f-8429-7f02b2aceb51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Mass/Spring\Source">
+      <UniqueIdentifier>{ef886126-c46b-43c8-944e-74103de75061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Core">
+      <UniqueIdentifier>{7ec27a28-eb2e-4b98-bb98-59fd32a29142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Core\Header">
+      <UniqueIdentifier>{759d3777-a789-4065-b31c-d2f29feee42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Core\Source">
+      <UniqueIdentifier>{89aa3c4c-dbe7-4bb2-8c9f-cc0020a1bded}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>Physics\Core\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>GameObjects\CameraGameObject\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowCamera.cpp">
+      <Filter>GameObjects\CameraGameObject\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObjects\GameObjectCore\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectPool.cpp">
+      <Filter>GameObjects\GameObjectCore\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>GameObjects\GameObjectCore\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshGO.cpp">
+      <Filter>GameObjects\MeshGameObject\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MSOManager.cpp">
+      <Filter>GameObjects\MSOGameObject\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Pawn.cpp">
+      <Filter>GameObjects\PawnGameObject\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBox.cpp">
+      <Filter>GameObjects\VertexGameObject\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexGO.cpp">
+      <Filter>GameObjects\VertexGameObject\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexMSO.cpp">
+      <Filter>GameObjects\VertexGameObject\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexPlane.cpp">
+      <Filter>GameObjects\VertexGameObject\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetAnchor.cpp">
+      <Filter>Physics\SoftBodyTest\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetManager.cpp">
+      <Filter>Physics\SoftBodyTest\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="NetSprings.cpp">
+      <Filter>Physics\SoftBodyTest\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameObjects\PawnGameObject\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Edge.cpp">
+      <Filter>Physics\Core\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Physics\Core\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangulateVertices.cpp">
+      <Filter>Maths\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangulateMasses.cpp">
+      <Filter>Maths\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIManager.cpp">
+      <Filter>GUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MSOChain.cpp">
+      <Filter>GameObjects\MSOGameObject\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MSOCube.cpp">
+      <Filter>GameObjects\MSOGameObject\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MSOSquare.cpp">
+      <Filter>GameObjects\MSOGameObject\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MSOFile.cpp">
+      <Filter>GameObjects\MSOGameObject\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MSOFBX.cpp">
+      <Filter>GameObjects\MSOGameObject\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ForceField.cpp">
+      <Filter>Physics\Colliders\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MSMass.cpp">
+      <Filter>Physics\Mass/Spring\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MSMesh.cpp">
+      <Filter>Physics\Mass/Spring\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MSSpring.cpp">
+      <Filter>Physics\Mass/Spring\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MSTriangle.cpp">
+      <Filter>Physics\Mass/Spring\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Physics\Colliders\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>Physics\Core\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalData.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadData.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>GameObjects\CameraGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowCamera.h">
+      <Filter>GameObjects\CameraGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawData2D.h">
+      <Filter>GameObjects\GameObjectCore\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawData3D.h">
+      <Filter>GameObjects\GameObjectCore\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObjects\GameObjectCore\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectPool.h">
+      <Filter>GameObjects\GameObjectCore\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>GameObjects\GameObjectCore\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLayer.h">
+      <Filter>GameObjects\GameObjectCore\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectTag.h">
+      <Filter>GameObjects\GameObjectCore\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>GameObjects\MeshGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshGO.h">
+      <Filter>GameObjects\MeshGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MSOManager.h">
+      <Filter>GameObjects\MSOGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MSOTypes.h">
+      <Filter>GameObjects\MSOGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBinding.h">
+      <Filter>GameObjects\PawnGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Pawn.h">
+      <Filter>GameObjects\PawnGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>GameObjects\VertexGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>GameObjects\VertexGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBox.h">
+      <Filter>GameObjects\VertexGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexGO.h">
+      <Filter>GameObjects\VertexGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexMSO.h">
+      <Filter>GameObjects\VertexGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexPlane.h">
+      <Filter>GameObjects\VertexGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsData.h">
+      <Filter>Physics\Core\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="NetAnchor.h">
+      <Filter>Physics\SoftBodyTest\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="NetManager.h">
+      <Filter>Physics\SoftBodyTest\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="NetSprings.h">
+      <Filter>Physics\SoftBodyTest\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameObjects\PawnGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Physics\Core\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Edge.h">
+      <Filter>Physics\Core\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangulateVertices.h">
+      <Filter>Maths\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangulateMasses.h">
+      <Filter>Maths\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIManager.h">
+      <Filter>GUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MSOChain.h">
+      <Filter>GameObjects\MSOGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MSOCube.h">
+      <Filter>GameObjects\MSOGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MSOSquare.h">
+      <Filter>GameObjects\MSOGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MSOFile.h">
+      <Filter>GameObjects\MSOGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MSOFBX.h">
+      <Filter>GameObjects\MSOGameObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceField.h">
+      <Filter>Physics\Colliders\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MSTriangle.h">
+      <Filter>Physics\Mass/Spring\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MSSpring.h">
+      <Filter>Physics\Mass/Spring\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MSMesh.h">
+      <Filter>Physics\Mass/Spring\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MSMass.h">
+      <Filter>Physics\Mass/Spring\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MSEdge.h">
+      <Filter>Physics\Mass/Spring\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Physics\Colliders\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FixDimension.h">
+      <Filter>Maths\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FixFormat.h">
+      <Filter>Maths\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Assets\BasicPixelShader.hlsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\BasicShader.fx">
+      <Filter>Resource Files\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\BasicVertexShader.hlsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="..\Assets\BirdModelV1.fbx">
+      <Filter>Resource Files\Models</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Assets\WhiteSquare.dds">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

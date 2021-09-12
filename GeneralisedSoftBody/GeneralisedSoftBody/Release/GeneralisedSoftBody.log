@@ -1,0 +1,110 @@
+﻿Build started 12/09/2021 19:09:40.
+     1>Project "D:\Files\SourceTreeOnwards\GSB\GeneralisedSoftBody\GeneralisedSoftBody\GeneralisedSoftBody.vcxproj" on node 2 (Build target(s)).
+     1>FxCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T ps_4_0_level_9_1 /Fo "D:\Files\SourceTreeOnwards\GSB\GeneralisedSoftBody\Release\BasicPixelShader.cso" ..\Assets\BasicPixelShader.hlsl 
+     1>D:\Files\SourceTreeOnwards\GSB\GeneralisedSoftBody\Assets\BasicPixelShader.hlsl(37,30-54): warning X3206: implicit truncation of vector type
+     1>D:\Files\SourceTreeOnwards\GSB\GeneralisedSoftBody\Assets\BasicPixelShader.hlsl(38,38-73): warning X3206: 'dot': implicit truncation of vector type
+         
+         compilation object save succeeded; see D:\Files\SourceTreeOnwards\GSB\GeneralisedSoftBody\Release\BasicPixelShader.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"Render" /T fx_5_0 /Fo "D:\Files\SourceTreeOnwards\GSB\GeneralisedSoftBody\Release\BasicShader.cso" ..\Assets\BasicShader.fx 
+     1>FXC : warning X4717: Effects deprecated for D3DCompiler_47
+     1>D:\Files\SourceTreeOnwards\GSB\GeneralisedSoftBody\Assets\BasicShader.fx(73,30-54): warning X3206: implicit truncation of vector type
+     1>D:\Files\SourceTreeOnwards\GSB\GeneralisedSoftBody\Assets\BasicShader.fx(74,38-73): warning X3206: 'dot': implicit truncation of vector type
+         
+         compilation object save succeeded; see D:\Files\SourceTreeOnwards\GSB\GeneralisedSoftBody\Release\BasicShader.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T vs_4_0_level_9_1 /Fo "D:\Files\SourceTreeOnwards\GSB\GeneralisedSoftBody\Release\BasicVertexShader.cso" ..\Assets\BasicVertexShader.hlsl 
+         compilation object save succeeded; see D:\Files\SourceTreeOnwards\GSB\GeneralisedSoftBody\Release\BasicVertexShader.cso
+       _MeshContentTask:
+         ..\Assets\BirdModelV1.fbx
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ID:\Files\SourceTreeOnwards\GSB\GeneralisedSoftBody\\DirectXTK\Inc /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D RELEASE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt App.cpp Base.cpp Camera.cpp Collider.cpp Edge.cpp FollowCamera.cpp ForceField.cpp GameObject.cpp GameObjectPool.cpp GUIManager.cpp Light.cpp Main.cpp MeshGO.cpp MSMass.cpp MSMesh.cpp MSOChain.cpp MSOCube.cpp MSOFBX.cpp MSOFile.cpp MSOManager.cpp MSOSquare.cpp MSSpring.cpp MSTriangle.cpp NetAnchor.cpp NetManager.cpp NetSprings.cpp Pawn.cpp Player.cpp Triangle.cpp TriangulateMasses.cpp TriangulateVertices.cpp VertexMSO.cpp PhysicsManager.cpp VertexBox.cpp VertexGO.cpp VertexPlane.cpp
+         App.cpp
+         Base.cpp
+         Camera.cpp
+         Collider.cpp
+         Edge.cpp
+         FollowCamera.cpp
+         ForceField.cpp
+         GameObject.cpp
+         GameObjectPool.cpp
+         GUIManager.cpp
+     1>GUIManager.cpp(324): warning C4101: 'temp': unreferenced local variable
+     1>GUIManager.cpp(347): warning C4101: 'temp': unreferenced local variable
+         Light.cpp
+         Main.cpp
+         MeshGO.cpp
+         MSMass.cpp
+         MSMesh.cpp
+     1>MSMesh.cpp(504): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+     1>MSMesh.cpp(560): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+         MSOChain.cpp
+         MSOCube.cpp
+         MSOFBX.cpp
+         MSOFile.cpp
+     1>MSOFile.cpp(95): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+         MSOManager.cpp
+         Compiling...
+         MSOSquare.cpp
+         MSSpring.cpp
+         MSTriangle.cpp
+         NetAnchor.cpp
+         NetManager.cpp
+         NetSprings.cpp
+         Pawn.cpp
+         Player.cpp
+         Triangle.cpp
+         TriangulateMasses.cpp
+         TriangulateVertices.cpp
+         VertexMSO.cpp
+         PhysicsManager.cpp
+         VertexBox.cpp
+         VertexGO.cpp
+     1>VertexGO.cpp(169): warning C4316: 'ConstantBuffer': object allocated on the heap may not be aligned 16
+         VertexPlane.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Files\SourceTreeOnwards\GSB\GeneralisedSoftBody\Release\GeneralisedSoftBody.exe" /NOLOGO d3dcompiler.lib d3d11.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Files\SourceTreeOnwards\GSB\GeneralisedSoftBody\Release\GeneralisedSoftBody.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Files\SourceTreeOnwards\GSB\GeneralisedSoftBody\Release\GeneralisedSoftBody.lib" /MACHINE:X86 /SAFESEH Release\App.obj
+         Release\Base.obj
+         Release\Camera.obj
+         Release\Collider.obj
+         Release\Edge.obj
+         Release\FollowCamera.obj
+         Release\ForceField.obj
+         Release\GameObject.obj
+         Release\GameObjectPool.obj
+         Release\GUIManager.obj
+         Release\Light.obj
+         Release\Main.obj
+         Release\MeshGO.obj
+         Release\MSMass.obj
+         Release\MSMesh.obj
+         Release\MSOChain.obj
+         Release\MSOCube.obj
+         Release\MSOFBX.obj
+         Release\MSOFile.obj
+         Release\MSOManager.obj
+         Release\MSOSquare.obj
+         Release\MSSpring.obj
+         Release\MSTriangle.obj
+         Release\NetAnchor.obj
+         Release\NetManager.obj
+         Release\NetSprings.obj
+         Release\Pawn.obj
+         Release\Player.obj
+         Release\Triangle.obj
+         Release\TriangulateMasses.obj
+         Release\TriangulateVertices.obj
+         Release\VertexMSO.obj
+         Release\PhysicsManager.obj
+         Release\VertexBox.obj
+         Release\VertexGO.obj
+         Release\VertexPlane.obj
+         D:\Files\SourceTreeOnwards\GSB\GeneralisedSoftBody\DirectXTK\Bin\Desktop_2015\Win32\Release\DirectXTK.lib
+         Generating code
+         All 1966 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         GeneralisedSoftBody.vcxproj -> D:\Files\SourceTreeOnwards\GSB\GeneralisedSoftBody\Release\GeneralisedSoftBody.exe
+     1>Done Building Project "D:\Files\SourceTreeOnwards\GSB\GeneralisedSoftBody\GeneralisedSoftBody\GeneralisedSoftBody.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:34.32
